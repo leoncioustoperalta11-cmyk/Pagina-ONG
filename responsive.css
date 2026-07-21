@@ -1,0 +1,20 @@
+/* Ajustes adicionales para pantallas táctiles y celulares */
+@media (max-width: 800px) {
+  .desplegable .sub-menu.abierto {
+    display: grid;
+    position: static;
+    margin-top: .5rem;
+    padding: 0 0 0 1rem;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero { min-height: 570px; }
+  .hero h1 { font-size: 3.1rem; }
+  .seccion, .impacto, .contacto { padding-left: 6vw; padding-right: 6vw; }
+  .cifras { flex-wrap: wrap; }
+  .cifras article { min-width: 42%; }
+  .mosaico { grid-template-rows: 150px 150px 150px; }
+}
